@@ -1,0 +1,16 @@
+Objective:
+To build an end-to-end Azure Data Pipeline using Azure Blob Storage and Azure Data Factory.
+
+Tasks Performed:
+• Created Resource Group.
+• Created Storage Account and Blob Containers.
+• Uploaded Superstore CSV file.
+• Created Azure Data Factory.
+• Configured Linked Services and Datasets.
+• Used Get Metadata activity for file validation.
+• Built a Copy Data pipeline.
+• Executed and monitored pipeline runs.
+• Configured IAM roles between ADF and Storage.
+
+Result:
+The pipeline successfully copied the Superstore CSV file from the source Blob container to the destination Blob container. Metadata validation and monitoring confirmed successful execution.
