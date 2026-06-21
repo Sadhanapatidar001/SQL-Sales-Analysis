@@ -1,0 +1,11 @@
+id,name,age,category,region,salary
+1,Amit,25,IT,North,50000
+2,Priya,30,HR,South,45000
+3,Rahul,35,IT,North,60000
+4,Neha,,Finance,East,55000
+5,Amit,25,IT,North,50000
+6,Karan,28,,West,48000
+7,Riya,40,HR,South,
+8,Vikas,22,IT,North,42000
+9,Anjali,31,Finance,East,58000
+10,Suresh,29,IT,West,51000
