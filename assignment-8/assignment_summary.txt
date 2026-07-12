@@ -1,0 +1,56 @@
+**Project Title:**
+E-Commerce Order Analytics System
+
+**Objective:**
+The objective of this project is to build an end-to-end data analytics system for processing and analyzing 
+e-commerce order data using Python, Pandas, SQLite, and SQL. The analysis is performed on the **Olist 
+Brazilian E-Commerce Dataset**, which contains real-world e-commerce transaction data.
+
+**Tools Used:**
+* Python
+* Pandas
+* SQLite
+* SQL
+* argparse
+
+**Project Description:**
+This project uses the **Olist Brazilian E-Commerce Dataset** to perform end-to-end data analysis. 
+The original datasets were imported and cleaned by removing duplicate records, handling missing values,
+converting date columns to the appropriate format, validating relationships between tables, and correcting 
+invalid records. The cleaned datasets were then stored in an SQLite database.
+
+Various SQL queries were executed to generate business insights, including revenue analysis, customer segmentation, 
+top-selling products, monthly revenue trends, customer rankings, window functions, Common Table Expressions (CTEs), 
+cohort analysis, and customer retention metrics. A command-line reporting tool was also developed to generate dynamic
+reports from the database.
+
+**Tasks Performed:**
+* Imported the Olist Brazilian E-Commerce Dataset.
+* Cleaned and validated the data using Pandas.
+* Removed duplicate records.
+* Handled missing values.
+* Converted date columns into datetime format.
+* Validated customer IDs and product IDs across related tables.
+* Created an SQLite database (`ecommerce.db`).
+* Imported cleaned datasets into database tables.
+* Performed SQL analysis using joins, aggregations, window functions, and CTEs.
+* Conducted customer segmentation, cohort analysis, and retention analysis.
+* Developed a command-line reporting system using `argparse`.
+* Implemented edge-case handling to improve system reliability.
+
+**Business Insights Generated:**
+* Total Revenue
+* Total Orders
+* Orders by Status
+* Monthly Revenue Trend
+* Top Customers
+* Top Selling Products
+* Revenue by Product Category
+* Customer Segmentation
+* Cohort Analysis
+* Customer Retention Metrics
+
+**Conclusion:**
+The project successfully demonstrates an end-to-end data analytics pipeline using the **Olist Brazilian E-Commerce Dataset**. 
+It showcases data cleaning, validation, database creation, SQL-based business analysis, and command-line report generation, 
+providing meaningful insights that can support data-driven business decision-making.
